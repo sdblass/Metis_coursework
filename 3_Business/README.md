@@ -30,8 +30,8 @@ Bold features indicate those that were included in the initial exploratory data 
 
 The EV data contained the number of EVs registered in each zip code. For this project, EV demand was calculated as follows:
 
-EV demand = Number of EVs registered (in 2019) / Total number of drivers
-Tot num drivers = Pop * % of pop that drives
+* EV demand = Number of EVs registered (in 2019) / Total number of drivers
+* Tot num drivers = Pop * % of pop that drives
 
 The number of EV registrations is only a snapshot in time for a particular year and is not a measure of the total number of EVs on the road at any given time. Therefore, analysis errors can occur if a particular area has high demand for EVs but just not that particular year.
 
