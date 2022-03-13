@@ -26,3 +26,5 @@ The data set comes from the Ecuador Poverty competition on [Kaggle](https://www.
 * Corrections for class imbalance
 * Hyperparameter tuning for multiple models and selection of best model
 
+![Initial results](https://github.com/sdblass/Metis_coursework/blob/master/4_Classification/MVP/Images/MVP_pic.png)
+
