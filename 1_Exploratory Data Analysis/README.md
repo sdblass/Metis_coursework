@@ -13,19 +13,19 @@ The company’s strategy is to build brand recognition by deploying ice cream ca
 We drew data for 378 MTA stations from the MTA website for May - September 2019, the warmest months of the year in which ice cream is most likely to sell well. The data set contains time-resolved cumulative counts for the number of entries and exits for each turnstile in the MTA system.
 
 ## Algorithms
-<<<<<<< HEAD
+
 ### Data Cleaning
 * Removed duplicate rows.
 * Corrected outlier data caused by turnstile counters not resetting at the same times each day and other unknown sources.
 * Corrected non-standardized time stamps in the data by binning times into four-hour blocks of time beginning at midnight.
 ### Analysis
-=======
+
 # Data Cleaning
 * Removed duplicate rows.
 * Corrected outlier data caused by turnstile counters not resetting at the same times each day and other unknown sources.
 * Corrected non-standardized time stamps in the data by binning times into four-hour blocks of time beginning at midnight.
 # Analysis
->>>>>>> ffb8ebd (adding first project files)
+
 * Calculated daily entries for each block of time for each turnstile by subtracting the data from the previous block of time and aggregating daily entries across all turnstiles in each station for each day.
 
 ## Tools
