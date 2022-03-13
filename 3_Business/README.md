@@ -27,14 +27,16 @@ Bold features indicate those that were included in the initial exploratory data 
 
 ## Algorithms
 *Feature Engineering*
+
 The EV data contained the number of EVs registered in each zip code. For this project, EV demand was calculated as follows:
 
-$$ EV demand = \dfrac{Number of EVs registered (in 2019)}{Total number of drivers} $$
-$$ Tot num drivers = Pop  \times % of pop that drives $$
+EV demand = Number of EVs registered (in 2019) / Total number of drivers
+Tot num drivers = Pop * % of pop that drives
 
 The number of EV registrations is only a snapshot in time for a particular year and is not a measure of the total number of EVs on the road at any given time. Therefore, analysis errors can occur if a particular area has high demand for EVs but just not that particular year.
 
 *Data visualizations*
+
 Visualizations showed demand for EVs increased gradually with median income in areas with low to medium population density (<15,000 people per mi) which makes sense considering EVs are more expensive than gasoline cars. In high population density areas, demand for EV grew more rapidly with increasing income, indicating that other factors in urban areas is influencing EV demand not accounted for by population density or income alone. Additional visualizations suggest **the target demographic most likely to adopt EVs is high income people under 30 living in cities**.
 
 ## Tools
