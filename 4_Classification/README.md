@@ -23,7 +23,7 @@ The data set contains 142 features that can broadly be categorized by individual
 Each row corresponds to one individual. Each invidual also gets a household id number to indicate which individuals live together. The data also indicate which individuals are heads of household which Kaggle uses to compute a score.
 
 ## Algorithms
-### Exploratory Data Analysis and Data cleaning
+### Exploratory Data Analysis and Data Cleaning
 Individuals in the same household should have the same feature data for household, geography, and poverty. Data cleaning involved correcting for discrepancies between individual and household data. Cleaning also corrected for mixed data types in the "Dependency" feature which turns out to rank highly in feature importance.
 
 The comparatively low numbers of vulnerable individudals compared to non-vulnerable ones indicate a potential class imbalance.
