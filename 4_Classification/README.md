@@ -18,7 +18,7 @@ The data set contains 142 features that can broadly be categorized by individual
 * 1 = extreme poverty
 * 2 = moderate poverty
 * 3 = vulnerable households
-* 4 = non vulnerable households 
+* 4 = non-vulnerable households 
 
 Each row corresponds to one individual. Each invidual also gets a household id number to indicate which individuals live together. The data also indicate which individuals are heads of household which Kaggle uses to compute a score.
 
