@@ -1,4 +1,4 @@
-# Predicting Poverty in Ecuador
+# Predicting Poverty in Costa Rica
 
 ## Abstract
 Addressing poverty in the developing world requires identifying those who need assistance the most. However, poverty can manifest itself in many different ways and be caused by many different factors. Therefore, the goal of this project is to build a classification model that can predict an individual's vulnerability to poverty as well as identify the factors that are most influential in contributing to poverty. Feature engineering combined with model tuning take the first few steps in addressing this important problem.
