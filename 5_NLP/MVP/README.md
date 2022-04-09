@@ -26,7 +26,8 @@ Data acquisition is complete. The final data set was broken up by sentence and c
 ### Initial findings
 Subreddits with fewer than 1000 English posts were eliminated from analysis. Subsequent sentiment analysis broken up by country does show the Russia subreddit has more positive sentiment than the Ukraine subreddit. There appears to be no relationship between sentiment and GDP or democracy score. This could indicate that countries are not responding to the will of their people although this may not be surprising given the rapid evolution of events.
 
+![countries](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/MVP/images/countries_sentiment.png)
 
-```python
+![GDP](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/MVP/images/GDP.png)
 
-```
+![democracy](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/MVP/images/democracy.png)
