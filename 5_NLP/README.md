@@ -1,4 +1,4 @@
-# Text Analysis of Reddit Posts on the Russia-Ukraine War
+# Text Analysis of Reddit Posts on the 2022 Russia-Ukraine War
 ## Summary
 The goal of this project is to use natural language processing tools to visualize differences in the topics and sentiments of posts about the Ukraine conflict, broken down by the subreddits of various countries. The countries range in GDP, system of government, level of support for Ukraine as expressed by votes at the United Nations or in pledges of military or humanitarian aid. Valuable insight could be gained by probing sentiments on social media forums like Reddit rather than get information filtered through government officials. Governments can also use an analysis of Reddit to inform their responses to the conflict. Outlined in this project is a method for extracting topics and sentiments from Reddit data, broken down by country and key terms.
 
