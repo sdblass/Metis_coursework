@@ -45,7 +45,7 @@ Topic modeling was done with CorEx to help extract topics that would otherwise b
 
 ### Overall sentiment for each subreddit
 
-[Overall sentiment](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Overall_sentiments.png)
+![Overall sentiment](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Overall_sentiments.png)
 
 There is no clear lesson from the data. It is perhaps unsurprising that the Russia subreddit would show positive sentiment while the Ukrainian subreddit would show negative. However, why would the Belarus subreddit have such negative sentiment but the Russia one would not? Perhaps the Belarus subreddit contains mostly posts by English speaking dissidents while the Russia subreddit is subject to Russian government propaganda.
 
@@ -56,21 +56,21 @@ It is also possible that English speakers are strongly biased towards Ukraine. N
 ### Sentiments for Ukraine and Russia subreddits
 The above graph shows that the basic premise of this project is flawed. Subreddits are probably not accurate representations of country populations. So let's compare sentiments between the Ukraine subreddit which is where the world goes to post on Ukraine issues with Russia which is subjected to Russian government propaganda. If there were any two subreddits to show a difference in sentiments by topic, it would be these two.
 
-[Russia-Ukraine sentiments](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Russia_Ukraine_sentiment_topics.png)
+![Russia-Ukraine sentiments](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Russia_Ukraine_sentiment_topics.png)
 
 The graph shows that sentiments do vary between subreddits and in ways that match up with predictions.
 
 ### Relationships between GDP, democracy score, and sentiments
 Since subreddits are likely not accurate representations of country's populations, it is perhaps unsurprising that there do not seem to exist any meaningful correlation between economic and political metrics and sentiment. It is entirely plausible that people who post in subreddits of authoritarian countries tend to live outside those countries, considering those countries are more likely to censor speech.
 
-[pairplot showing relationship between GDP and democracy score and key terms](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/pp_GDP_democracy_topics.png)
+![pairplot showing relationship between GDP and democracy score and key terms](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/pp_GDP_democracy_topics.png)
 
 ### Topic analysis by country
 If subreddits are not representative of countries, can we still learn something from an analysis of topics broken down by subreddit? Possibly. The topics below provided (by CorEx) show what posters are discussing as it pertains to each particular country. Posters in Ukraine are predictably disdainful of Russian president Putin and appear to want NATO to join the fight. When posters discuss Poland, they discuss military aid and border issues. People in Belarus air their antipathy towards Lukashenko, the Belarusian dictator. The analysis in this project does not mean that Polish people are discussing these topics but rather people who post in English in the Poland subreddit are discussing these topics. These people may live in other countries but post in subreddits other than the one of the country in which they live.
 
-[topics for Ukraine and Poland](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/topics.png)
+![topics for Ukraine and Poland](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/topics.png)
 
-[Belarus topics](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Belarus_topics.png)
+![Belarus topics](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Belarus_topics.png)
 
 
 ```python
