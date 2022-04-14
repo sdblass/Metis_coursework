@@ -68,11 +68,6 @@ Since subreddits are likely not accurate representations of country's population
 ### Topic analysis by country
 If subreddits are not representative of countries, can we still learn something from an analysis of topics broken down by subreddit? Possibly. The topics below provided (by CorEx) show what posters are discussing as it pertains to each particular country. Posters in Ukraine are predictably disdainful of Russian president Putin and appear to want NATO to join the fight. When posters discuss Poland, they discuss military aid and border issues. People in Belarus air their antipathy towards Lukashenko, the Belarusian dictator. The analysis in this project does not mean that Polish people are discussing these topics but rather people who post in English in the Poland subreddit are discussing these topics. These people may live in other countries but post in subreddits other than the one of the country in which they live.
 
-![topics for Ukraine and Poland](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/topics.png)
+![topics for Ukraine and Poland](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Ukraine_Poland_topics.png)
 
 ![Belarus topics](https://github.com/sdblass/Metis_coursework/blob/master/5_NLP/images/Belarus_topics.png)
-
-
-```python
-
-```
