@@ -62,13 +62,13 @@ Logistic regression accuracy was unable to distinguish bird species by a vector 
 
 As shown below, logistic regression is unable to separate 5 classes and so obtains an accuracy of 32%. As the number of species is increased more dots appear on the chart and drawing lines to separate the dots into distinct classes becomes even harder so the accuracy decreases.
 
-![logreg]()
+![logreg](https://github.com/sdblass/Metis_coursework/blob/master/6_Deep_Learning/images/SVD.png)
 
 ### Factors that improve the basic CNN model
 
-Image augmentation by flipping and rotating the training images improved the validation accuracy. Increasing the batch size reduced the tendency of the model to overfit the training data. By the end of 30 epochs, the validation accuracy was around 95% for 4 classes. Applying the model to more than 4 classes was possible but memory issues began to arise at around 10 classes so the bulk of the work was limited to 4 classes.
+Image augmentation by flipping and rotating the training images improved the validation accuracy. Increasing the batch size reduced the tendency of the model to overfit the training data. By the end of 30 epochs, the validation accuracy was around 90% for 4 classes. Applying the model to more than 4 classes was possible but memory issues began to arise at around 10 classes so the bulk of the work was limited to 4 classes.
 
-![basicCNN](https://github.com/sdblass/Metis_coursework/blob/master/6_Deep_Learning/images/SVD.png)
+![basicCNN](https://github.com/sdblass/Metis_coursework/blob/master/6_Deep_Learning/images/basic_cnn.png)
 
 While good results are possible with a basic CNN model, the best case scenario can be obtained when leveraging pretrained models through transfer learning.
 
