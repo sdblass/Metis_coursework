@@ -75,8 +75,8 @@ While good results are possible with a basic CNN model, the best case scenario c
 ### Transfer learning
 VGG16 and ResNet were implemented and both models achieved results for 50 classes that were far superior than the basic CNN models in fewer epochs. Transfer learning models represent best-case scenarios where we have a great deal of resources to thoroughly train a model on image recognition.
 
-**VGG**
+
 ![VGG](https://github.com/sdblass/Metis_coursework/blob/master/6_Deep_Learning/images/vgg16.png)
 
-**ResNet**
+
 ![ResNet](https://github.com/sdblass/Metis_coursework/blob/master/6_Deep_Learning/images/resnet.png)
